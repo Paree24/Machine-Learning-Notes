@@ -60,7 +60,7 @@ Linear algebra is the branch of mathematics concerning linear equations.
 
         ![A \pm B = \begin{pmatrix}a & b \\ c & d \end{pmatrix} \pm \begin{pmatrix}x & y \\ z & u\end{pmatrix} = \begin{pmatrix}a \pm x & b \pm y \\ c \pm z & d \pm u \end{pmatrix}](http://s.wordpress.com/latex.php?latex=A%20%5Cpm%20B%20%3D%20%5Cbegin%7Bpmatrix%7Da%20%26%20b%20%5C%5C%20c%20%26%20d%20%5Cend%7Bpmatrix%7D%20%5Cpm%20%5Cbegin%7Bpmatrix%7Dx%20%26%20y%20%5C%5C%20z%20%26%20u%5Cend%7Bpmatrix%7D%20%3D%20%5Cbegin%7Bpmatrix%7Da%20%5Cpm%20x%20%26%20b%20%5Cpm%20y%20%5C%5C%20c%20%5Cpm%20z%20%26%20d%20%5Cpm%20u%20%5Cend%7Bpmatrix%7D&bg=ffffff&fg=000000&s=2)Multiplication of two matrices:
 
-        
+        <div style="page-break-after: always;"></div>
 
 2. ### Vectors
 
@@ -147,7 +147,7 @@ Linear algebra is the branch of mathematics concerning linear equations.
 
         The *xy*-coordinate plane has dimension 2.  The standard basis consists of the two vectors (1,0) and (0,1). Any two independent vectors will also form a basis, for example, (3,8) and (−4,0) will form a basis of this plane.
 
-   ​    
+   ​    <div style="page-break-after: always;"></div>
 
 3. ### Linear Transformations
 
@@ -190,6 +190,7 @@ Linear algebra is the branch of mathematics concerning linear equations.
    $$
 
    7. The *image* of a linear transformation T:V->W is the set of all vectors in W which were mapped from vectors in V. For Example, if T(1)=2, then image of 2 is 1.
+   8. <div style="page-break-after: always;"></div>
 
 4. ### Determinants
 
@@ -237,7 +238,7 @@ Linear algebra is the branch of mathematics concerning linear equations.
    A^{-1}=\frac{1}{det(A)}adj(A)
    $$
 
-   
+   <div style="page-break-after: always;"></div>
 
 5. ### Eigenvalue and Eigenvectors 
 
@@ -263,11 +264,11 @@ Linear algebra is the branch of mathematics concerning linear equations.
 
   6. v is the eigenvector of matrix A if the following equation is true
 
-        		![{\displaystyle (A-\lambda I)v=0,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/c23473bf4e5986fe7b3759e686dae74f16646a2f)
+     		![{\displaystyle (A-\lambda I)v=0,}](https://wikimedia.org/api/rest_v1/media/math/render/svg/c23473bf4e5986fe7b3759e686dae74f16646a2f)
 
-        where I is the identity matrix.
+     where I is the identity matrix.
 
-      This equation has a non zero solution only if,
+     This equation has a non zero solution only if,
 
      ![{\displaystyle |A-\lambda I|=0}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1f51f610b43bbf9a5d794d835b70fa145befb412)
 
@@ -344,6 +345,8 @@ Solving for eigenvalues, we get
 8. Eigenvalue and Eigenvectors are used extensively in Dimensionality Reduction. in Principal Component Analysis, Eigenvalue of covariance matrix depicts variance, and eigenvector depicts the vector or direction having highest variance.
 9. Rank of a matrix is equivalent to the maximum number of linearly independent columns of A.
 
+<div style="page-break-after: always;"></div>
+
 ## Statistics and Probability
 
 Statistics is basically the mathematical study and interpretation of data. Statistics can be used as a powerful tool to analyze data.
@@ -391,7 +394,7 @@ Statistics is basically the mathematical study and interpretation of data. Stati
     = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
    $$
 
-   
+   <div style="page-break-after: always;"></div>
 
 3. ### Correlation
 
@@ -406,7 +409,7 @@ Statistics is basically the mathematical study and interpretation of data. Stati
    i.e, Correlation \neq Causation
    $$
 
-   
+   <div style="page-break-after: always;"></div>
 
 4. ### Event
 
@@ -476,11 +479,15 @@ Statistics is basically the mathematical study and interpretation of data. Stati
 
    8. **Exponential Distribution:** It is the continuous analogue of the geometric distribution,  is the probability distribution of the time between events in a Poisson point process (Which is a set of random points in sample space)
 
+<div style="page-break-after: always;"></div>
+
 8. ### **Central Limit Theorem**
 
    * Most Distributions get closer and closer to a normal distribution as sample set increases.
 
    * A Confidence Interval is a **range of values**  we are fairly sure our **true value** lies in.
+
+<div style="page-break-after: always;"></div>
 
 9. ### Bayes Theorem and Applications
 
@@ -501,7 +508,7 @@ Statistics is basically the mathematical study and interpretation of data. Stati
    ​		A simple Bayesian network. Rain influences whether the sprinkler is 
    ​		activated, and both rain and the sprinkler influence whether the grass 
    ​		is wet.
-
+<div style="page-break-after: always;"></div>
 10. ### Inferential Statistics
 
     1. Statistical inference is the process of using data analysis to deduce properties of an underlying probability distribution.
@@ -558,6 +565,8 @@ Statistics is basically the mathematical study and interpretation of data. Stati
 
     1. The number of independent ways by which a dynamic system can move, without violating any constraint imposed on it, is called number of **degrees of freedom**.
 
+<div style="page-break-after: always;"></div>
+
 13. ### Joint Probability 
 
     1. Joint probability is the probability of two events happening together. The two events are usually designated *event A* and *event B.* In probability terminology, it can be written as:
@@ -586,6 +595,7 @@ Statistics is basically the mathematical study and interpretation of data. Stati
        $$
        r_{(x,y)}=\frac{cov(x,y)}{s_xs_y}
        $$
+       <div style="page-break-after: always;"></div>
 
 14. ### **Stochastic Process** and Markov Chain
 
@@ -626,7 +636,7 @@ Statistics is basically the mathematical study and interpretation of data. Stati
     A **right stochastic matrix** is a real square matrix, with each row summing to 1.
 
     A **left stochastic matrix** is a real square matrix, with each column summing to 1.
-
+<div style="page-break-after: always;"></div>
 ## Calculus 
 
 1. ### Limits
@@ -694,6 +704,8 @@ Statistics is basically the mathematical study and interpretation of data. Stati
        $$
        Where f is the function.
 
+       <div style="page-break-after: always;"></div>
+
 3. ### Basic Integral Calculus
 
    1. The integral of *f*(*x*) corresponds to the computation of the area under the graph of *f*(*x*). The area under *f*(*x*) between the points *x*=*a* and *x*=*b* is denoted as follows:
@@ -705,6 +717,8 @@ Statistics is basically the mathematical study and interpretation of data. Stati
    3. ![_images/integral_definition.png](https://ml-cheatsheet.readthedocs.io/en/latest/_images/integral_definition.png)
 
    4. Integrals can be used to calculate Probability,Expectation and Variance of continuous distributions 
+
+<div style="page-break-after: always;"></div>
 
 ## Optimization and Numerical Methods
 
@@ -735,8 +749,6 @@ repeat\:until\:convergence\:\{\\
 \\\}
 $$
 
-
-
 #### 	Stochastic Gradient Descent
 
 Stochastic gradient descent (often abbreviated SGD) is an iterative method for optimizing an objective function .
@@ -744,6 +756,7 @@ Stochastic gradient descent (often abbreviated SGD) is an iterative method for o
 It is called stochastic because the method uses randomly selected (or shuffled) samples to evaluate the gradients, hence SGD can be regarded as a stochastic approximation of gradient descent optimization.
 
 ![sgdns](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/sgdn.png)
+<div style="page-break-after: always;"></div>
 
 ### Other Methods
 
@@ -795,6 +808,7 @@ $$
 v_{corrected}=\frac{v}{(1-(\beta_1)^t)}\\
 s_{corrected}=\frac{s}{(1-(\beta_1)^2)}
 $$
+<div style="page-break-after: always;"></div>
 
 ### Curve Fitting
 
@@ -828,7 +842,7 @@ $$
 y = a.b^x + c
 $$
 
-
+<div style="page-break-after: always;"></div>
 
 ## Basic Python Refresher (From https://intellipaat.com/)
 
@@ -1045,7 +1059,7 @@ Class: class Pen:
 pass
 object:obj=Pen()
 ```
-
+<div style="page-break-after: always;"></div>
 # Data Science
 
 Data Science Combines Fields of Statistics and Computer Science.
@@ -1057,6 +1071,8 @@ Common Subdomains and applications of Data Science are ML/AI, Data Mining, Data 
 ## Data Science Tasks
 
 ![1559744604018](C:\Users\PareeKatti\AppData\Roaming\Typora\typora-user-images\1559744604018.png)
+
+<div style="page-break-after: always;"></div>
 
 ## Data Preprocessing
 
@@ -1070,7 +1086,7 @@ Common Subdomains and applications of Data Science are ML/AI, Data Mining, Data 
 8. **Cross Validation:** Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample.
 9. **K-fold Cross Validation:** Divide data into k buckets and pick each bucket for testing and rest of the buckets for training.
 10. **Normalization:** Scaling value to a range.
-
+<div style="page-break-after: always;"></div>
 ## Data Visualization
 
 It is the creation and study of the visual representation of data.
@@ -1082,6 +1098,7 @@ Used in comparison of values for categorical variables
 The bars can be plotted vertically or horizontally.
 
 ![Image result for bar chart](https://plot.ly/~RPlotBot/3512/count-vs-animals.png)
+<div style="page-break-after: always;"></div>
 
 ### Pie Chart
 
@@ -1089,18 +1106,18 @@ A pie chart (or a circle chart) is a circular statistical graphic, which is divi
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/English_dialects1997.svg/800px-English_dialects1997.svg.png)
 
-
+<div style="page-break-after: always;"></div>
 
 ### Scatter Plot
 
 It is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. If the points are coded (color/shape/size(Bubble Plots)), one additional variable can be displayed.
 
 ![Scatter diagram for quality characteristic XXX.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Scatter_diagram_for_quality_characteristic_XXX.svg/800px-Scatter_diagram_for_quality_characteristic_XXX.svg.png)
-
+<div style="page-break-after: always;"></div>
 ##### Bubble Plot:
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Net_Present_Value_vs_Payback_time_Portfolio_Management_Simulation.jpg/1024px-Net_Present_Value_vs_Payback_time_Portfolio_Management_Simulation.jpg)
-
+<div style="page-break-after: always;"></div>
 ### Line Plot
 
 A line chart or line plot or line graph is a type of chart which displays information as a series of data points called 'markers' connected by straight line segments.
@@ -1108,23 +1125,23 @@ A line chart or line plot or line graph is a type of chart which displays inform
 It is generally used for continuous variables, generally changing over time.
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/ScientificGraphSpeedVsTime.svg/800px-ScientificGraphSpeedVsTime.svg.png)
-
+<div style="page-break-after: always;"></div>
 ### Box Plot
 
 A box plot or boxplot is a method for graphically depicting groups of numerical data through their quartiles. Box plots may also have lines extending vertically from the boxes (whiskers) indicating variability outside the upper and lower quartiles, hence the terms box-and-whisker plot and box-and-whisker diagram. Outliers may be plotted as individual points. The upper and lower dashes represent maximum and minimum values, the mid-line represents median.
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Michelsonmorley-boxplot.svg/800px-Michelsonmorley-boxplot.svg.png)
-
+<div style="page-break-after: always;"></div>
 ### Histograms
 
 A histogram is an accurate representation of the distribution of numerical data. It is an estimate of the probability distribution of a continuous variable.
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Black_cherry_tree_histogram.svg/800px-Black_cherry_tree_histogram.svg.png)
-
+<div style="page-break-after: always;"></div>
 **A Line Histogram:**
 
 ![img](https://i.stack.imgur.com/S6hqi.png)
-
+<div style="page-break-after: always;"></div>
 
 
 # Introduction to Machine Learning
@@ -1142,8 +1159,8 @@ Machine learning algorithms are used in a wide variety of applications, such as 
 ![1559744974117](C:\Users\PareeKatti\AppData\Roaming\Typora\typora-user-images\1559744974117.png)
 
 ![1559744988538](C:\Users\PareeKatti\AppData\Roaming\Typora\typora-user-images\1559744988538.png)
-
-### Anaconda
+<div style="page-break-after: always;"></div>
+#### Anaconda
 
 Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. Package versions are managed by the package management system conda.
 
@@ -1152,7 +1169,7 @@ It has many useful libraries such as numpy, pandas, scikit-learn,seaborn,matplot
 It has Jupyter Notebook, Spyder, R Studio and other IDEs
 
 
-
+<div style="page-break-after: always;"></div>
 ## Algorithms
 
 ## Supervised - Regression
@@ -1189,7 +1206,7 @@ Regression is a supervised learning method used to predict continuous variables.
    $$
    h_\theta=\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_3+...+\theta_nx_n
    $$
-
+<div style="page-break-after: always;"></div>
 2. ### Logistic Regression
 
    1. Logistic Regression uses a logistic function to model a binary dependent variable
@@ -1215,21 +1232,21 @@ Regression is a supervised learning method used to predict continuous variables.
       h_\theta=P(y=0|x;\theta)
       $$
       
-
+<div style="page-break-after: always;"></div>
 3. ### Ridge Regression
 
    We add a level-2 regularization (keeps the weights small making the model simpler and avoiding overfitting.) parameter to our linear regression model.
    $$
    J(\theta_0,\theta_1)=\frac{1}{2}[\sum_{i=0}^m (h_\theta(x^{(i)})-y^{(i)})^2+\lambda\sum_{j=0}^n\theta^2]
    $$
-
+<div style="page-break-after: always;"></div>
 4. ### LASSO Regression
 
    We add a level-1 regularization to our linear regression model
    $$
    J(\theta_0,\theta_1)=\frac{1}{2}[\sum_{i=0}^m (h_\theta(x^{(i)})-y^{(i)})^2+\lambda\sum_{j=0}^n|\theta|]
    $$
-
+<div style="page-break-after: always;"></div>
 5. ### Multivariate Adaptive Regression Splines
 
    Multivariate adaptive regression splines (MARS) is a form of  regression analysis introduced by Jerome H. Friedman in 1991.It is a  non-parametric regression technique and can be seen as an extension of  linear models that automatically models nonlinearities and interactions  between variables.
@@ -1237,7 +1254,7 @@ Regression is a supervised learning method used to predict continuous variables.
    Multivariate adaptive regression splines, implemented by the Earth  class, is a flexible regression method that automatically searches for  interactions and non-linear relationships. Earth models can be thought  of as linear models in a higher dimensional basis space. Each term in an  Earth model is a product of so called “hinge functions”. A hinge  function is a function that’s equal to its argument where that argument  is greater than zero and is zero everywhere else. 
 
    ![alt text](https://contrib.scikit-learn.org/py-earth/_images/hinge.png)
-
+<div style="page-break-after: always;"></div>
 6. ### Non Linear Regression
 
    Nonlinear regression is a form of regression analysis in which observational data are modeled by a function which is a nonlinear combination of the model parameters and depends on one or more independent variables.
@@ -1257,7 +1274,7 @@ Regression is a supervised learning method used to predict continuous variables.
    h_\theta=\theta_0+\theta_1x+\theta_2x^2+\theta_3x^3+...+\theta_nx^n
    $$
    
-
+<div style="page-break-after: always;"></div>
 ## Supervised - Classification
 
  Classification is a supervised learning method used to predict categorical variables.
@@ -1286,7 +1303,7 @@ Regression is a supervised learning method used to predict continuous variables.
       ![1559750832898](C:\Users\PareeKatti\AppData\Roaming\Typora\typora-user-images\1559750832898.png)
 
       
-
+<div style="page-break-after: always;"></div>
 2. ### Decision Trees
 
    1. Decision trees use a tree based approach to classify. The leaf nodes of a tree are class labels needed to be predicted and the internal nodes are decision parameters (Attribute Value Pairs).
@@ -1297,6 +1314,8 @@ Regression is a supervised learning method used to predict continuous variables.
    5. Lots of algorithms can be used to build decision trees like CART, C4.5,ID3 etc.
    6. They tend to overfit to training data set.
 
+   <div style="page-break-after: always;"></div>
+
 3. ### Random Forest and Bagging
 
    1. Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
@@ -1304,7 +1323,7 @@ Regression is a supervised learning method used to predict continuous variables.
    2. The training algorithm for random forests applies the general technique of bootstrap aggregating, or bagging, to tree learners. Given a training set ***X = x1, ..., xn*** with responses **Y = y1, ..., yn**, bagging repeatedly (B times) selects a random sample with replacement of the training set and fits trees to these samples
 
    3. Random forests differ in only one way from this general scheme: they use a modified tree learning algorithm that selects, at each candidate split in the learning process, a random subset of the features. This process is sometimes called "feature bagging". 
-
+<div style="page-break-after: always;"></div>
 4. ### Boosting
 
    1. Boosting algorithms are a family of machine learning algorithms that convert weak learners to strong ones.
@@ -1340,8 +1359,8 @@ Regression is a supervised learning method used to predict continuous variables.
       model.score(x_test,y_test)
       0.82702702702702702
       ```
+<div style="page-break-after: always;"></div>
 
-      
 
 5. ### Naïve Bayes
 
@@ -1355,7 +1374,7 @@ Regression is a supervised learning method used to predict continuous variables.
    3. A class's prior may be calculated by assuming equiprobable classes (i.e., priors = 1 / (number of classes)), or by calculating an estimate for the class probability from the training set (i.e., (prior for a given class) = (number of samples in the class) / (total number of samples)). To estimate the parameters for a feature's distribution, one must assume a distribution or generate nonparametric models for the features from the training set.
 
    4. Any probability distribution such as Gaussian, Multinomial or Bernoulli's distribution.
-
+<div style="page-break-after: always;"></div>
 6. ### Support Vector Machines
 
    1. Support Vector Machine classifies by drawing a hyperplane (line) that separates two classes.  
@@ -1394,7 +1413,7 @@ Regression is a supervised learning method used to predict continuous variables.
       ![Image result for non linear kernels in svm](https://kgpdag.files.wordpress.com/2015/08/11850866_1042104839148149_308987681_n.jpg)
 
    10. The gamma parameter defines how far the influence of a single training example reaches, with low values meaning ‘far’ and high values meaning ‘close’. 
-
+<div style="page-break-after: always;"></div>
 7. ### Linear Discriminant Analysis
 
    1. LDA models the distribution of predictors separately in each of the response classes, and then it uses Bayes’ theorem to estimate the probability.
@@ -1414,7 +1433,7 @@ Regression is a supervised learning method used to predict continuous variables.
    4. It can also be used for Dimensionality Reduction as Score Z captures variance of multiple features.
    5. ![Image result for linear discriminant analysis](https://slideplayer.com/slide/4557543/15/images/3/Linear+Discriminant+Analysis+%28LDA%29.jpg)
    6. ![Related image](https://sebastianraschka.com/images/blog/2014/linear-discriminant-analysis/lda_pca_recap.png)
-
+<div style="page-break-after: always;"></div>
 8. ### Rule Based Classifiers 
 
    1. Rule Based Classifiers use if-then rules to classify.
@@ -1433,7 +1452,7 @@ Regression is a supervised learning method used to predict continuous variables.
 
    5. y is the class label
    6. Rules can be generated directly from the dataset or indirectly from decision trees.
-
+<div style="page-break-after: always;"></div>
 ## Unsupervised - Clustering
 
 1. ### K-Means
@@ -1443,7 +1462,7 @@ Regression is a supervised learning method used to predict continuous variables.
    3. We choose K random points as centroids and assign each point to nearest centroid
    4. We now find the mean of each cluster and choose the nearest point to the mean as new centroid. We then repeat the process until mean doesn't change.
    5. ![Image result for K Means](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2018/11/02/k-means-sagemaker-1.gif)
-
+<div style="page-break-after: always;"></div>
 2. ### Agglomerative Hierarchical Clustering
 
    1. Agglomerative Clustering uses bottom up approach to produce hierarchical nested clusters.
@@ -1452,8 +1471,8 @@ Regression is a supervised learning method used to predict continuous variables.
    4. We combine two nearest cluster to form higher level cluster
    5. We repeat it until a single cluster is formed
    6. ![Image result for agglomerative clustering](https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/003-hierarchical-clustering-in-r/figures/002-agglomerative-clustering-cutree-cut-dendrogram-1.png)
+<div style="page-break-after: always;"></div>
 
-   
 
 3. ### DBSCAN
 
@@ -1480,7 +1499,7 @@ Regression is a supervised learning method used to predict continuous variables.
    8. ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/DBSCAN-density-data.svg/800px-DBSCAN-density-data.svg.png)
 
    9. DBSCAN can form clusters in irregular shapes
-
+<div style="page-break-after: always;"></div>
 4. ### EM Clustering
 
    1. Expectation–maximization (EM) algorithm is an iterative method to find maximum likelihood or maximum a posteriori (MAP) estimates of parameters here the model depends on unobserved latent variables. It is an optimization algorithm used to cluster using Gaussian Mixture Models
@@ -1491,8 +1510,9 @@ Regression is a supervised learning method used to predict continuous variables.
    6. We begin by selecting the number of clusters (like K-Means does) and randomly initializing the Gaussian distribution parameters for each cluster.
    7. Given these Gaussian distributions for each cluster, compute the probability that each data point belongs to a particular cluster. The closer a point is to the Gaussian’s center, the more likely it belongs to that cluster. 
    8. Based on these probabilities, we compute a new set of parameters for the Gaussian distributions such that we maximize the probabilities of data points within the clusters. We compute these new parameters using a weighted sum of the data point positions, where the weights are the probabilities of the data point belonging in that particular cluster.
-   9. Repeat the algorithm until convergence.![img](https://cdn-images-1.medium.com/max/800/1*OyXgise21a23D5JCss8Tlg.gif)
+   9. Repeat the algorithm until convergence.
 
+<div style="page-break-after: always;"></div>
 ## Unsupervised - Dimensionality Reduction
 
 1. ### Principle Component Analysis
@@ -1505,7 +1525,7 @@ Regression is a supervised learning method used to predict continuous variables.
    6. The eigenvalue is sorted in descending order
    7. The highest eigenvalue captures the features with most variance
    8. The eigenvector corresponding to the eigenvalue points to the direction in which variance is maximum.
-
+<div style="page-break-after: always;"></div>
 2. ### Singular Value Decomposition
 
    1. Matrix decomposition, also known as matrix factorization, involves describing a given matrix using its constituent elements.
@@ -1523,7 +1543,7 @@ Regression is a supervised learning method used to predict continuous variables.
    3. Data with a large number of features, such as more features (columns)than observations (rows) may be reduced to a smaller subset of features that are most relevant to the prediction problem.
 
    4. To do this we can perform an SVD operation on the original data and select the top k largest singular values in Sigma. These columns can be selected from Sigma and the rows selected from V<sup>T</sup>.
-
+<div style="page-break-after: always;"></div>
 # Deep Learning
 
 ■Deep Learning makes use of Deep Neural Networks
@@ -1535,7 +1555,7 @@ Regression is a supervised learning method used to predict continuous variables.
 ■Nodes are connect with Weights and Biases. Each node is activated if the activation function produces a value greater than the threshold value
 
 ![1559759062486](C:\Users\PareeKatti\AppData\Roaming\Typora\typora-user-images\1559759062486.png)
-
+<div style="page-break-after: always;"></div>
 ## Activation Functions [From ML Cheatsheets]
 
 ## Linear
@@ -1751,7 +1771,7 @@ Softmax function calculates the probabilities distribution of the  event over �
 5. We can use it for multiclass classification using a majority voting
 6. ![{\hat {y}}=\operatorname {argmax} _{y}f(x,y)\cdot w.](https://wikimedia.org/api/rest_v1/media/math/render/svg/dc5b83e57ad0de11c737317732783fcf03b8cf1b)
 7. ![Image result for perceptron](https://cdn-images-1.medium.com/max/1600/1*_Zy1C83cnmYUdETCeQrOgA.png)
-
+<div style="page-break-after: always;"></div>
 ## Feed Forward Neural Networks
 
 A feedforward neural network is an artificial neural network wherein connections between the nodes do not form a cycle.
@@ -1765,7 +1785,7 @@ Multilayer perceptrons are sometimes colloquially referred to as "vanilla" neura
 ![Image result for multilayer perceptron](https://cdn-images-1.medium.com/max/1600/1*q_o8pu8aPRGKo2Bq5KvzCQ.png)
 
 
-
+<div style="page-break-after: always;"></div>
 ## Convolutional Neural Networks
 
 A convolutional neural network (CNN, or ConvNet) is a class of deep neural networks, most commonly applied to analyzing visual imagery. 
@@ -1789,7 +1809,7 @@ pooling acts on all the neurons of the convolutional layer.
 Fully connected layers connect every neuron in one layer to every neuron in another layer. It is in principle the same as the traditional multi-layer perceptron neural network (MLP). The flattened matrix goes through a fully connected layer to classify the images. 
 
 Finally, A Softmax Layer is used to predict a class.
-
+<div style="page-break-after: always;"></div>
 ## Recurrent Neural Networks
 
 Recurrent Neural Network(RNN) are a type of Neural Network where the output from previous step are fed as input to the current step.
@@ -1823,7 +1843,7 @@ the algorithm assigns a stupidly high importance to the weights, without much re
 #### Vanishing Gradients
 
 When the values of a gradient are too small and the model stops learning or takes way too long because of that.
-
+<div style="page-break-after: always;"></div>
 ### LSTM
 
 Long Short-Term Memory (LSTM) networks are an extension for recurrent neural networks, which basically extends their memory. It solves vanishing gradient problem. The units of an LSTM are used as building units for the layers of a RNN, which is then often called an LSTM network.
@@ -1838,7 +1858,7 @@ In an LSTM you have three gates: input, forget and output gate. These gates dete
 ![img](https://cdn-images-1.medium.com/max/1254/0*YEVLdwY6verYMBEa.png)
 
 The problematic issues of vanishing gradients is solved through LSTM because it keeps the gradients steep enough and therefore the training relatively short and the accuracy high.
-
+<div style="page-break-after: always;"></div>
 ## Restricted Boltzmann Machine
 
 It is a two layer shallow neural network where the second layer tries to reconstruct te input and adjusts weights and biases along the way. It is a generative model.
@@ -1850,8 +1870,8 @@ This was designed to solve Vanishing Gradient Problem in Backpropogation.
 ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Restricted_Boltzmann_machine.svg/800px-Restricted_Boltzmann_machine.svg.png)
 
 It is useful for dimensionality reduction, classification, regression, collaborative filtering, feature learning and topic modeling.
+<div style="page-break-after: always;"></div>
 
- 
 
 ## Deep Belief Networks
 
@@ -1864,7 +1884,7 @@ This stack of RBMs might end with a a Softmax layer to create a classifier, or i
 With the exception of the first and final layers, each layer in a deep-belief network has a double role: it serves as the hidden layer to the nodes that come before it, and as the input (or “visible”) layer to the nodes that come after. It is a network built of single-layer networks.
 
 Deep-belief networks are used to recognize, cluster and generate images, video sequences and motion-capture data. A continuous deep-belief network is simply an extension of a deep-belief network that accepts a continuum of decimals, rather than binary data. 
-
+<div style="page-break-after: always;"></div>
 ## Autoencoders
 
 An autoencoder is a type of artificial neural network used to learn efficient data codings in an unsupervised manner.
@@ -1885,7 +1905,7 @@ Various techniques exist to prevent autoencoders from learning the identity func
 Denoising autoencoders take a partially corrupted input whilst training to recover the original undistorted input.
 
 Contractive autoencoder adds an explicit regularizer in their objective function that forces the model to learn a function that is robust to slight variations of input values.
-
+<div style="page-break-after: always;"></div>
 ## Transformers
 
  A recently introduced model (By Google) which is explicitly good at NLP tasks.
@@ -1909,7 +1929,7 @@ The Encoder is on the left and the Decoder is on the right. Both Encoder and Dec
 We see that the modules consist mainly of Multi-Head Attention and Feed Forward layers. The inputs and outputs (target sentences) are first embedded into an n-dimensional space since we cannot use strings directly.
 
 One slight but important part of the model is the positional encoding of the different words. Since we have no recurrent networks that can remember how sequences are fed into a model, we need to somehow give every word/part in our sequence a relative position since a sequence depends on the order of its elements. These positions are added to the embedded representation (n-dimensional vector) of each word.
-
+<div style="page-break-after: always;"></div>
 ## Generative Adversarial Networks
 
 Generative adversarial networks (GANs) are deep neural net architectures comprised of two nets, pitting one against the other (thus the “adversarial”).
@@ -1924,7 +1944,7 @@ each instance of data that it reviews belongs to the actual training dataset or 
 ![GAN schema](https://skymind.ai/images/wiki/gan_schema.png)
 
 ![GANs](https://skymind.ai/images/wiki/GANs.png)
-
+<div style="page-break-after: always;"></div>
 
 
 # Python Packages
@@ -2207,7 +2227,7 @@ The NumPy linspace function (sometimes called np.linspace) is a tool in Python f
 ```python
 np.linspace(start = 0, stop = 100, num = 5)
 ```
-
+<div style="page-break-after: always;"></div>
 ## SciPy
 
 SciPy is a scientific computing library for Python. It is built into numpy so we can use it by just importing numPy as well.
@@ -2338,7 +2358,7 @@ U, s, Vh = linalg.svd(a)
 # printing the result
 print U, Vh, s
 ```
-
+<div style="page-break-after: always;"></div>
 ## Pandas
 
 Pandas is a data manipulation library for python.
@@ -2461,7 +2481,7 @@ df.fillna(0) #fill with zero
 >>> df.fillna(value=values) #filling with values
 
 ```
-
+<div style="page-break-after: always;"></div>
 ## Matplotlib
 
 #### Basic Plot
@@ -2577,9 +2597,7 @@ plt.pie(slices,
 plt.title('Interesting Graph\nCheck it out')
 plt.show()
 ```
-
-
-
+<div style="page-break-after: always;"></div>
 ## Seaborn
 
 Seaborn is built upon matplotlib to give enriched visualizations. Seaborn is also easier to use than matplotlib
@@ -2728,7 +2746,7 @@ plt.show()
 ```
 
 ![Colored ](https://www.tutorialspoint.com/seaborn/images/colored.jpg)
-
+<div style="page-break-after: always;"></div>
 ## Scikit-Learn
 
 Scikit-Learn is a machine learning library for python. It contains lots of algorithms implemented and ready to use.
@@ -2769,7 +2787,7 @@ pred = gnb.fit(data_train, target_train).predict(data_test)
 #print the accuracy score of the model
 print("Naive-Bayes accuracy : ",accuracy_score(target_test, pred, normalize = True))
 ```
-
+<div style="page-break-after: always;"></div>
 ## Keras
 
 Keras is a high level API for tensorflow to quickly create deep neural networks.
@@ -2835,7 +2853,7 @@ model.compile(optimizer='adam',loss='sparse_categorical_crossentropy',metrics=['
 
 model.fit(training_images,training_labels,epochs=20,callbacks=[callbacks])
 ```
-
+<div style="page-break-after: always;"></div>
 ## Tensorflow
 
 It is a high performance tensor computing library. It is the most popular deep learning library.
@@ -2959,7 +2977,7 @@ print("The final accuracy for the simple ANN model is: {} % ".format(acc) )
 #The final accuracy for the simple ANN model is: 91.82999730110168 % 
 sess.close() #finish the session
 ```
-
+<div style="page-break-after: always;"></div>
 # Quick R Revision
 
 R is an open source programming language mainly used for statistical analysis.
@@ -3062,7 +3080,7 @@ Let's create a **character vector** for the following **genres**:
 genres <- c("Animation", "Comedy", "Biography", "Horror", "Romance", "Sci-fi")
 genres
 ```
-
+<div style="page-break-after: always;"></div>
 Conditional Statements
 
 We often want to check a conditional statement and then do something in response to that condition being true or false.
@@ -3110,7 +3128,7 @@ Did you know? R only recognizes `TRUE`, `FALSE`, `T` and `F` as special values f
 
 ------
 
-
+<div style="page-break-after: always;"></div>
 
 Vector Operations
 
@@ -3565,9 +3583,9 @@ if(decade == 'recent' ){
 
 ------
 
+<div style="page-break-after: always;"></div>
 
-
-Loops
+## Loops
 
 Sometimes,  you might want to repeat a given function many times. Maybe you don't  even know how many times you want it to execute, but have an idea like `once for every row in my dataset`. Repeated execution like this is supplemented by **loops**. In R, there are two main loop structures, **for** and **while**.
 
@@ -4983,6 +5001,8 @@ save(list = c("var1", "var2", "var3"), file = "variables.RData", safe = T)
 
 The file with name **variables.RData** is generated on the provided location.
 
+<div style="page-break-after: always;"></div>
+
 ### plot
 
 The `plot` library is the default R library for plotting  graphs. It's very simplistic in both syntax and aesthetics. To use it to  create a bar plot, you use the `barplot` function, like so:
@@ -5570,6 +5590,8 @@ ggplotly()
 
 ![img](data:image/png;base64,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)
 
+<div style="page-break-after: always;"></div>
+
 # Basic Concepts in Big Data
 
 
@@ -5595,6 +5617,8 @@ Big data can be described by the following characteristics:
 Data must be processed with advanced tools (analytics and algorithms) to reveal meaningful information. For example, to manage a factory one must consider both visible and invisible issues with various components. Information generation algorithms must detect and address invisible issues such as machine degradation, component wear, etc. on the factory floor.
 
 ![https://cdn.intellipaat.com/mediaFiles/2018/12/Big-Data-Cheat-Sheet-1.png](https://cdn.intellipaat.com/mediaFiles/2018/12/Big-Data-Cheat-Sheet-1.png)
+
+<div style="page-break-after: always;"></div>
 
 # Basic Concepts in Cloud Deployment
 
